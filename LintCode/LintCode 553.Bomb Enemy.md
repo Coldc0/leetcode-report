@@ -11,7 +11,7 @@ $$\begin{cases}
     up[i][j]=up[i-1][j]+1(grid[i][j]是敌人)\\
     up[i][j]=0(grid[i][j]是墙)\\
 \end{cases}$$
-**其他方向以此类推** 
+**其他方向以此类推,但要注意运算顺序，确保能用到前面的结果** 
 ````java
 public class Solution {
     /**
